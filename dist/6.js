@@ -306,7 +306,7 @@ webpackJsonp([6],{
   
   
   // module
-  exports.push([module.id, ".Hero_hero_3zx {\n  max-width: 100%;\n  margin-top: 80px;\n  margin-bottom: 80px;\n  position: relative;\n  display: block\n}\n.Hero_hero_3zx img {\n  width: 100%;\n  box-shadow: 0 5px 20px -5px #8fa2ae\n}\n@media (max-width: 500px) {\n  .Hero_hero_3zx img {\n    width: 100vw;\n    position: relative;\n    left: -20px\n  }\n}\n", "", {"version":3,"sources":["/./pages/work/Hero.css"],"names":[],"mappings":"AAEA;EACE,gBAAgB;EAChB,iBAAiB;EACjB,oBAAoB;EACpB,mBAAmB;EACnB,cAAe;CAYhB;AAVC;EACE,YAAY;EACZ,mCAA6C;CAO9C;AALC;EAAA;IACE,aAAa;IACb,mBAAmB;IACnB,WAAY;GACb;CAAA","file":"Hero.css","sourcesContent":["@import '../../static/styles/colours.css';\n\n.hero {\n  max-width: 100%;\n  margin-top: 80px;\n  margin-bottom: 80px;\n  position: relative;\n  display: block;\n\n  & img {\n    width: 100%;\n    box-shadow: 0 5px 20px -5px var(--dark-grey);\n\n    @media (width <= 500px) {\n      width: 100vw;\n      position: relative;\n      left: -20px;\n    }\n  }\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, ".Hero_hero_3zx {\n  max-width: 100%;\n  margin-top: 80px;\n  margin-bottom: 80px;\n  position: relative;\n  display: block\n}\n\n  @media (max-width: 500px) {\n\n  .Hero_hero_3zx {\n    margin: 20px 0\n  }\n  }\n\n  .Hero_hero_3zx img {\n  width: 100%;\n  box-shadow: 0 5px 20px -5px #8fa2ae\n}\n\n  @media (max-width: 500px) {\n\n  .Hero_hero_3zx img {\n    width: 100vw;\n    position: relative;\n    top: -40px;\n    left: -20px\n  }\n}\n", "", {"version":3,"sources":["/./pages/work/Hero.css"],"names":[],"mappings":"AAGA;EACE,gBAAgB;EAChB,iBAAiB;EACjB,oBAAoB;EACpB,mBAAmB;EACnB,cAAe;CAiBhB;;EAfC;;EAAA;IACE,cAAyC;GAC1C;GAAA;;EAED;EACE,YAAY;EACZ,mCAA6C;CAQ9C;;EANC;;EAAA;IACE,aAAa;IACb,mBAAmB;IACnB,WAAW;IACX,WAAsC;GACvC;CAAA","file":"Hero.css","sourcesContent":["@import '../../static/styles/colours.css';\n@import '../../static/styles/vars.css';\n\n.hero {\n  max-width: 100%;\n  margin-top: 80px;\n  margin-bottom: 80px;\n  position: relative;\n  display: block;\n\n  @media (width <= 500px) {\n    margin: var(--page-side-padding-small) 0;\n  }\n\n  & img {\n    width: 100%;\n    box-shadow: 0 5px 20px -5px var(--dark-grey);\n\n    @media (width <= 500px) {\n      width: 100vw;\n      position: relative;\n      top: -40px;\n      left: -var(--page-side-padding-small);\n    }\n  }\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -340,7 +340,7 @@ webpackJsonp([6],{
   
   
   // module
-  exports.push([module.id, ".Title_title_3W4 {\n  width: 40%;\n  float: left;\n  margin-left: 5%;\n  margin-right: 5%\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 {\n    width: 100%;\n    float: none;\n    display: block;\n    margin-left: 0;\n    margin-right: 0\n  }\n  }\n\n  .Title_title_3W4 h1 {\n  margin: 1em 0;\n  padding: 0;\n  background: none;\n  font-size: 46px;\n  color: #527ea7;\n  text-transform: none;\n  text-align: right\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 h1 {\n    text-align: center\n  }\n}\n", "", {"version":3,"sources":["/./pages/work/Title.css"],"names":[],"mappings":"AAGA;EACE,WAAW;EACX,YAAY;EACZ,gBAAgB;EAChB,gBAAiB;CAuBlB;;EArBC;;EAAA;IACE,YAAY;IACZ,YAAY;IACZ,eAAe;IACf,eAAe;IACf,eAAgB;GACjB;GAAA;;EAED;EACE,cAAc;EACd,WAAW;EACX,iBAAiB;EACjB,gBAAqB;EACrB,eAAmB;EACnB,qBAAqB;EACrB,iBAAkB;CAKnB;;EAHC;;EAAA;IACE,kBAAmB;GACpB;CAAA","file":"Title.css","sourcesContent":["@import '../../static/styles/colours.css';\n@import '../../static/styles/vars.css';\n\n.title {\n  width: 40%;\n  float: left;\n  margin-left: 5%;\n  margin-right: 5%;\n\n  @media (width <= 768px) {\n    width: 100%;\n    float: none;\n    display: block;\n    margin-left: 0;\n    margin-right: 0;\n  }\n\n  & h1 {\n    margin: 1em 0;\n    padding: 0;\n    background: none;\n    font-size: var(--h1);\n    color: var(--blue);\n    text-transform: none;\n    text-align: right;\n\n    @media (width <= 768px) {\n      text-align: center;\n    }\n  }\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, ".Title_title_3W4 {\n  width: 40%;\n  float: left;\n  margin-left: 5%;\n  margin-right: 5%\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 {\n    width: 100%;\n    float: none;\n    display: block;\n    margin-left: 0;\n    margin-right: 0\n  }\n  }\n\n  .Title_title_3W4 h1 {\n  margin: 1em 0;\n  padding: 0;\n  background: none;\n  font-size: 46px;\n  color: #527ea7;\n  text-transform: none;\n  text-align: right\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 h1 {\n    text-align: center\n  }\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 h1 {\n    margin-top: 0;\n    font-size: 34px\n  }\n}\n", "", {"version":3,"sources":["/./pages/work/Title.css"],"names":[],"mappings":"AAGA;EACE,WAAW;EACX,YAAY;EACZ,gBAAgB;EAChB,gBAAiB;CA4BlB;;EA1BC;;EAAA;IACE,YAAY;IACZ,YAAY;IACZ,eAAe;IACf,eAAe;IACf,eAAgB;GACjB;GAAA;;EAED;EACE,cAAc;EACd,WAAW;EACX,iBAAiB;EACjB,gBAAqB;EACrB,eAAmB;EACnB,qBAAqB;EACrB,iBAAkB;CAUnB;;EARC;;EAAA;IACE,kBAAmB;GACpB;CAAA;;EAED;;EAAA;IACE,cAAc;IACd,eAAqB;GACtB;CAAA","file":"Title.css","sourcesContent":["@import '../../static/styles/colours.css';\n@import '../../static/styles/vars.css';\n\n.title {\n  width: 40%;\n  float: left;\n  margin-left: 5%;\n  margin-right: 5%;\n\n  @media (width <= 768px) {\n    width: 100%;\n    float: none;\n    display: block;\n    margin-left: 0;\n    margin-right: 0;\n  }\n\n  & h1 {\n    margin: 1em 0;\n    padding: 0;\n    background: none;\n    font-size: var(--h1);\n    color: var(--blue);\n    text-transform: none;\n    text-align: right;\n\n    @media (width <= 768px) {\n      text-align: center;\n    }\n\n    @media (width <= 768px) {\n      margin-top: 0;\n      font-size: var(--h2);\n    }\n  }\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -616,7 +616,7 @@ webpackJsonp([6],{
             null,
             '"Serial" multitasking:'
           ),
-          ' Where the user has one app on the screen at a time, but they flip between tasks in order (hence, in "serial")'
+          ' Where the user has one app on the screen at a time, but they flip between tasks in order (hence, "serial")'
         ),
         _react2.default.createElement(
           'li',
@@ -698,12 +698,24 @@ webpackJsonp([6],{
             null,
             'diminishing frequency'
           ),
-          ' to going back to your 2nd/3rd/nth-most recently used app because — I hypothesized — users don\'t actually remember what\'s further along in their back stack. And they really shouldn\'t need to.'
+          ' to going back to your 2nd/3rd/',
+          _react2.default.createElement(
+            'em',
+            null,
+            'n'
+          ),
+          'th-most recently used app because — I hypothesized — users don\'t actually remember what\'s further along in their back stack. And they really shouldn\'t need to.'
         ),
         _react2.default.createElement(
           'li',
           null,
-          'I believe the natural behaviour for the user is, if the user is not certain that their app is back there and near the top (i.e. they haven\'t been switching back and forth between these apps and therefore have them top of mind), users will use the "home screen" to do the switching because that flow is predictable. There is nothing wrong with using the "home screen" to switch.'
+          'I believe the natural behaviour for the user is this: if the user is not certain that their app is back there and near the top (i.e. they haven\'t been switching back and forth between these apps and therefore have them top of mind), users will use the "home screen" to do the switching because that flow is predictable (note: they\'re not really consciously thinking about this; it\'s just something they ',
+          _react2.default.createElement(
+            'em',
+            null,
+            'do'
+          ),
+          '). There is nothing wrong with using the "home screen" to switch.'
         )
       ),
       _react2.default.createElement(
@@ -856,7 +868,7 @@ webpackJsonp([6],{
       _react2.default.createElement(
         'p',
         null,
-        'Instead of forcing the user to first enter some sort of "switch mode" to select a recent app they want to go to, I made switching into one user action: a swipe from the right edge. If the first app swiped in is the one the user wanted to switch to (according to testing & data, it was), we are done. The user can start using the app immediately. There\'s no need for the user to select anything and exit a mode.'
+        'Instead of forcing the user to first enter some sort of "switch mode" to select a recent app they want to go to, I rolled "switching to the last app" into one user action: a swipe from the right edge. If the first app swiped in, is the one the user wanted to switch to (according to testing & data, it was), we are done. The user can start using the app immediately. There\'s no need for the user to select anything and exit a mode.'
       ),
       _react2.default.createElement(
         'h3',
@@ -921,4 +933,4 @@ webpackJsonp([6],{
 /***/ }
 
 });
-//# sourceMappingURL=6.js.map?f481265ec5ea4678330c
+//# sourceMappingURL=6.js.map?d0e7c5b6e253839e0de9

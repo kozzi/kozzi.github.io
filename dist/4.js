@@ -306,7 +306,7 @@ webpackJsonp([4],{
   
   
   // module
-  exports.push([module.id, ".Hero_hero_3zx {\n  max-width: 100%;\n  margin-top: 80px;\n  margin-bottom: 80px;\n  position: relative;\n  display: block\n}\n.Hero_hero_3zx img {\n  width: 100%;\n  box-shadow: 0 5px 20px -5px #8fa2ae\n}\n@media (max-width: 500px) {\n  .Hero_hero_3zx img {\n    width: 100vw;\n    position: relative;\n    left: -20px\n  }\n}\n", "", {"version":3,"sources":["/./pages/work/Hero.css"],"names":[],"mappings":"AAEA;EACE,gBAAgB;EAChB,iBAAiB;EACjB,oBAAoB;EACpB,mBAAmB;EACnB,cAAe;CAYhB;AAVC;EACE,YAAY;EACZ,mCAA6C;CAO9C;AALC;EAAA;IACE,aAAa;IACb,mBAAmB;IACnB,WAAY;GACb;CAAA","file":"Hero.css","sourcesContent":["@import '../../static/styles/colours.css';\n\n.hero {\n  max-width: 100%;\n  margin-top: 80px;\n  margin-bottom: 80px;\n  position: relative;\n  display: block;\n\n  & img {\n    width: 100%;\n    box-shadow: 0 5px 20px -5px var(--dark-grey);\n\n    @media (width <= 500px) {\n      width: 100vw;\n      position: relative;\n      left: -20px;\n    }\n  }\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, ".Hero_hero_3zx {\n  max-width: 100%;\n  margin-top: 80px;\n  margin-bottom: 80px;\n  position: relative;\n  display: block\n}\n\n  @media (max-width: 500px) {\n\n  .Hero_hero_3zx {\n    margin: 20px 0\n  }\n  }\n\n  .Hero_hero_3zx img {\n  width: 100%;\n  box-shadow: 0 5px 20px -5px #8fa2ae\n}\n\n  @media (max-width: 500px) {\n\n  .Hero_hero_3zx img {\n    width: 100vw;\n    position: relative;\n    top: -40px;\n    left: -20px\n  }\n}\n", "", {"version":3,"sources":["/./pages/work/Hero.css"],"names":[],"mappings":"AAGA;EACE,gBAAgB;EAChB,iBAAiB;EACjB,oBAAoB;EACpB,mBAAmB;EACnB,cAAe;CAiBhB;;EAfC;;EAAA;IACE,cAAyC;GAC1C;GAAA;;EAED;EACE,YAAY;EACZ,mCAA6C;CAQ9C;;EANC;;EAAA;IACE,aAAa;IACb,mBAAmB;IACnB,WAAW;IACX,WAAsC;GACvC;CAAA","file":"Hero.css","sourcesContent":["@import '../../static/styles/colours.css';\n@import '../../static/styles/vars.css';\n\n.hero {\n  max-width: 100%;\n  margin-top: 80px;\n  margin-bottom: 80px;\n  position: relative;\n  display: block;\n\n  @media (width <= 500px) {\n    margin: var(--page-side-padding-small) 0;\n  }\n\n  & img {\n    width: 100%;\n    box-shadow: 0 5px 20px -5px var(--dark-grey);\n\n    @media (width <= 500px) {\n      width: 100vw;\n      position: relative;\n      top: -40px;\n      left: -var(--page-side-padding-small);\n    }\n  }\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -340,7 +340,7 @@ webpackJsonp([4],{
   
   
   // module
-  exports.push([module.id, ".Title_title_3W4 {\n  width: 40%;\n  float: left;\n  margin-left: 5%;\n  margin-right: 5%\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 {\n    width: 100%;\n    float: none;\n    display: block;\n    margin-left: 0;\n    margin-right: 0\n  }\n  }\n\n  .Title_title_3W4 h1 {\n  margin: 1em 0;\n  padding: 0;\n  background: none;\n  font-size: 46px;\n  color: #527ea7;\n  text-transform: none;\n  text-align: right\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 h1 {\n    text-align: center\n  }\n}\n", "", {"version":3,"sources":["/./pages/work/Title.css"],"names":[],"mappings":"AAGA;EACE,WAAW;EACX,YAAY;EACZ,gBAAgB;EAChB,gBAAiB;CAuBlB;;EArBC;;EAAA;IACE,YAAY;IACZ,YAAY;IACZ,eAAe;IACf,eAAe;IACf,eAAgB;GACjB;GAAA;;EAED;EACE,cAAc;EACd,WAAW;EACX,iBAAiB;EACjB,gBAAqB;EACrB,eAAmB;EACnB,qBAAqB;EACrB,iBAAkB;CAKnB;;EAHC;;EAAA;IACE,kBAAmB;GACpB;CAAA","file":"Title.css","sourcesContent":["@import '../../static/styles/colours.css';\n@import '../../static/styles/vars.css';\n\n.title {\n  width: 40%;\n  float: left;\n  margin-left: 5%;\n  margin-right: 5%;\n\n  @media (width <= 768px) {\n    width: 100%;\n    float: none;\n    display: block;\n    margin-left: 0;\n    margin-right: 0;\n  }\n\n  & h1 {\n    margin: 1em 0;\n    padding: 0;\n    background: none;\n    font-size: var(--h1);\n    color: var(--blue);\n    text-transform: none;\n    text-align: right;\n\n    @media (width <= 768px) {\n      text-align: center;\n    }\n  }\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, ".Title_title_3W4 {\n  width: 40%;\n  float: left;\n  margin-left: 5%;\n  margin-right: 5%\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 {\n    width: 100%;\n    float: none;\n    display: block;\n    margin-left: 0;\n    margin-right: 0\n  }\n  }\n\n  .Title_title_3W4 h1 {\n  margin: 1em 0;\n  padding: 0;\n  background: none;\n  font-size: 46px;\n  color: #527ea7;\n  text-transform: none;\n  text-align: right\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 h1 {\n    text-align: center\n  }\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 h1 {\n    margin-top: 0;\n    font-size: 34px\n  }\n}\n", "", {"version":3,"sources":["/./pages/work/Title.css"],"names":[],"mappings":"AAGA;EACE,WAAW;EACX,YAAY;EACZ,gBAAgB;EAChB,gBAAiB;CA4BlB;;EA1BC;;EAAA;IACE,YAAY;IACZ,YAAY;IACZ,eAAe;IACf,eAAe;IACf,eAAgB;GACjB;GAAA;;EAED;EACE,cAAc;EACd,WAAW;EACX,iBAAiB;EACjB,gBAAqB;EACrB,eAAmB;EACnB,qBAAqB;EACrB,iBAAkB;CAUnB;;EARC;;EAAA;IACE,kBAAmB;GACpB;CAAA;;EAED;;EAAA;IACE,cAAc;IACd,eAAqB;GACtB;CAAA","file":"Title.css","sourcesContent":["@import '../../static/styles/colours.css';\n@import '../../static/styles/vars.css';\n\n.title {\n  width: 40%;\n  float: left;\n  margin-left: 5%;\n  margin-right: 5%;\n\n  @media (width <= 768px) {\n    width: 100%;\n    float: none;\n    display: block;\n    margin-left: 0;\n    margin-right: 0;\n  }\n\n  & h1 {\n    margin: 1em 0;\n    padding: 0;\n    background: none;\n    font-size: var(--h1);\n    color: var(--blue);\n    text-transform: none;\n    text-align: right;\n\n    @media (width <= 768px) {\n      text-align: center;\n    }\n\n    @media (width <= 768px) {\n      margin-top: 0;\n      font-size: var(--h2);\n    }\n  }\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -585,7 +585,7 @@ webpackJsonp([4],{
           null,
           'get'
         ),
-        '. I knew early on I didn\'t want to draw some generic chess art (cause anyone can do that). As a fan and follower myself, I felt like I was in a unique position to take I know about him and his followers, and create something fun!'
+        '. I knew early on I didn\'t want to draw some generic chess art (cause anyone can do that). As a fan and follower myself, I felt like I was in a unique position to take what I know about him and his followers, and create something fun!'
       ),
       _react2.default.createElement(
         'h2',
@@ -630,7 +630,7 @@ webpackJsonp([4],{
             null,
             'Fins:'
           ),
-          ' John\'s online handle on online chess sites, and on Twitter, is ',
+          ' John\'s online handle on online chess sites and on Twitter, is ',
           _react2.default.createElement(
             'em',
             null,
@@ -714,7 +714,13 @@ webpackJsonp([4],{
             null,
             'Berserk icon:'
           ),
-          ' "Berserking" is a feature on popular chess website, lichess.org, where a player takes a risk by choosing to cut their available time in half in order to gain an extra point if they win the game. John does this frequently in his bullet videos, and it\'s heart-attack-inducing.'
+          ' "Berserking" is a feature on popular chess website, ',
+          _react2.default.createElement(
+            'a',
+            { href: 'http://lichess.org' },
+            'lichess.org'
+          ),
+          ', where a player takes a gamble by choosing to cut their available time in half in order to gain an extra point if they win the game. John does this frequently in his bullet videos, and it\'s heart-attack-inducing.'
         )
       ),
       _react2.default.createElement(
@@ -803,4 +809,4 @@ webpackJsonp([4],{
 /***/ }
 
 });
-//# sourceMappingURL=4.js.map?e467cf799dbc1f14777a
+//# sourceMappingURL=4.js.map?30c909f4a73bd2688fd4

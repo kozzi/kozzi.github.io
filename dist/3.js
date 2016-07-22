@@ -306,7 +306,7 @@ webpackJsonp([3],{
   
   
   // module
-  exports.push([module.id, ".Hero_hero_3zx {\n  max-width: 100%;\n  margin-top: 80px;\n  margin-bottom: 80px;\n  position: relative;\n  display: block\n}\n.Hero_hero_3zx img {\n  width: 100%;\n  box-shadow: 0 5px 20px -5px #8fa2ae\n}\n@media (max-width: 500px) {\n  .Hero_hero_3zx img {\n    width: 100vw;\n    position: relative;\n    left: -20px\n  }\n}\n", "", {"version":3,"sources":["/./pages/work/Hero.css"],"names":[],"mappings":"AAEA;EACE,gBAAgB;EAChB,iBAAiB;EACjB,oBAAoB;EACpB,mBAAmB;EACnB,cAAe;CAYhB;AAVC;EACE,YAAY;EACZ,mCAA6C;CAO9C;AALC;EAAA;IACE,aAAa;IACb,mBAAmB;IACnB,WAAY;GACb;CAAA","file":"Hero.css","sourcesContent":["@import '../../static/styles/colours.css';\n\n.hero {\n  max-width: 100%;\n  margin-top: 80px;\n  margin-bottom: 80px;\n  position: relative;\n  display: block;\n\n  & img {\n    width: 100%;\n    box-shadow: 0 5px 20px -5px var(--dark-grey);\n\n    @media (width <= 500px) {\n      width: 100vw;\n      position: relative;\n      left: -20px;\n    }\n  }\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, ".Hero_hero_3zx {\n  max-width: 100%;\n  margin-top: 80px;\n  margin-bottom: 80px;\n  position: relative;\n  display: block\n}\n\n  @media (max-width: 500px) {\n\n  .Hero_hero_3zx {\n    margin: 20px 0\n  }\n  }\n\n  .Hero_hero_3zx img {\n  width: 100%;\n  box-shadow: 0 5px 20px -5px #8fa2ae\n}\n\n  @media (max-width: 500px) {\n\n  .Hero_hero_3zx img {\n    width: 100vw;\n    position: relative;\n    top: -40px;\n    left: -20px\n  }\n}\n", "", {"version":3,"sources":["/./pages/work/Hero.css"],"names":[],"mappings":"AAGA;EACE,gBAAgB;EAChB,iBAAiB;EACjB,oBAAoB;EACpB,mBAAmB;EACnB,cAAe;CAiBhB;;EAfC;;EAAA;IACE,cAAyC;GAC1C;GAAA;;EAED;EACE,YAAY;EACZ,mCAA6C;CAQ9C;;EANC;;EAAA;IACE,aAAa;IACb,mBAAmB;IACnB,WAAW;IACX,WAAsC;GACvC;CAAA","file":"Hero.css","sourcesContent":["@import '../../static/styles/colours.css';\n@import '../../static/styles/vars.css';\n\n.hero {\n  max-width: 100%;\n  margin-top: 80px;\n  margin-bottom: 80px;\n  position: relative;\n  display: block;\n\n  @media (width <= 500px) {\n    margin: var(--page-side-padding-small) 0;\n  }\n\n  & img {\n    width: 100%;\n    box-shadow: 0 5px 20px -5px var(--dark-grey);\n\n    @media (width <= 500px) {\n      width: 100vw;\n      position: relative;\n      top: -40px;\n      left: -var(--page-side-padding-small);\n    }\n  }\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -340,7 +340,7 @@ webpackJsonp([3],{
   
   
   // module
-  exports.push([module.id, ".Title_title_3W4 {\n  width: 40%;\n  float: left;\n  margin-left: 5%;\n  margin-right: 5%\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 {\n    width: 100%;\n    float: none;\n    display: block;\n    margin-left: 0;\n    margin-right: 0\n  }\n  }\n\n  .Title_title_3W4 h1 {\n  margin: 1em 0;\n  padding: 0;\n  background: none;\n  font-size: 46px;\n  color: #527ea7;\n  text-transform: none;\n  text-align: right\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 h1 {\n    text-align: center\n  }\n}\n", "", {"version":3,"sources":["/./pages/work/Title.css"],"names":[],"mappings":"AAGA;EACE,WAAW;EACX,YAAY;EACZ,gBAAgB;EAChB,gBAAiB;CAuBlB;;EArBC;;EAAA;IACE,YAAY;IACZ,YAAY;IACZ,eAAe;IACf,eAAe;IACf,eAAgB;GACjB;GAAA;;EAED;EACE,cAAc;EACd,WAAW;EACX,iBAAiB;EACjB,gBAAqB;EACrB,eAAmB;EACnB,qBAAqB;EACrB,iBAAkB;CAKnB;;EAHC;;EAAA;IACE,kBAAmB;GACpB;CAAA","file":"Title.css","sourcesContent":["@import '../../static/styles/colours.css';\n@import '../../static/styles/vars.css';\n\n.title {\n  width: 40%;\n  float: left;\n  margin-left: 5%;\n  margin-right: 5%;\n\n  @media (width <= 768px) {\n    width: 100%;\n    float: none;\n    display: block;\n    margin-left: 0;\n    margin-right: 0;\n  }\n\n  & h1 {\n    margin: 1em 0;\n    padding: 0;\n    background: none;\n    font-size: var(--h1);\n    color: var(--blue);\n    text-transform: none;\n    text-align: right;\n\n    @media (width <= 768px) {\n      text-align: center;\n    }\n  }\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, ".Title_title_3W4 {\n  width: 40%;\n  float: left;\n  margin-left: 5%;\n  margin-right: 5%\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 {\n    width: 100%;\n    float: none;\n    display: block;\n    margin-left: 0;\n    margin-right: 0\n  }\n  }\n\n  .Title_title_3W4 h1 {\n  margin: 1em 0;\n  padding: 0;\n  background: none;\n  font-size: 46px;\n  color: #527ea7;\n  text-transform: none;\n  text-align: right\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 h1 {\n    text-align: center\n  }\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 h1 {\n    margin-top: 0;\n    font-size: 34px\n  }\n}\n", "", {"version":3,"sources":["/./pages/work/Title.css"],"names":[],"mappings":"AAGA;EACE,WAAW;EACX,YAAY;EACZ,gBAAgB;EAChB,gBAAiB;CA4BlB;;EA1BC;;EAAA;IACE,YAAY;IACZ,YAAY;IACZ,eAAe;IACf,eAAe;IACf,eAAgB;GACjB;GAAA;;EAED;EACE,cAAc;EACd,WAAW;EACX,iBAAiB;EACjB,gBAAqB;EACrB,eAAmB;EACnB,qBAAqB;EACrB,iBAAkB;CAUnB;;EARC;;EAAA;IACE,kBAAmB;GACpB;CAAA;;EAED;;EAAA;IACE,cAAc;IACd,eAAqB;GACtB;CAAA","file":"Title.css","sourcesContent":["@import '../../static/styles/colours.css';\n@import '../../static/styles/vars.css';\n\n.title {\n  width: 40%;\n  float: left;\n  margin-left: 5%;\n  margin-right: 5%;\n\n  @media (width <= 768px) {\n    width: 100%;\n    float: none;\n    display: block;\n    margin-left: 0;\n    margin-right: 0;\n  }\n\n  & h1 {\n    margin: 1em 0;\n    padding: 0;\n    background: none;\n    font-size: var(--h1);\n    color: var(--blue);\n    text-transform: none;\n    text-align: right;\n\n    @media (width <= 768px) {\n      text-align: center;\n    }\n\n    @media (width <= 768px) {\n      margin-top: 0;\n      font-size: var(--h2);\n    }\n  }\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -640,7 +640,13 @@ webpackJsonp([3],{
             null,
             'Sicilian/Kalashnikov chess opening:'
           ),
-          ' One of Tony\'s favourite chess openings. In fact, he published a very comprehensive video series on it on YouTube, and had written an entire book about it.'
+          ' One of Tony\'s favourite chess openings. In fact, he published a very comprehensive video series on it on YouTube, and had written an entire ',
+          _react2.default.createElement(
+            'a',
+            { href: 'https://smile.amazon.com/Killer-Sicilian-Fighting-1e4-Kalashnikov/dp/1857446658/' },
+            'book'
+          ),
+          ' about it.'
         )
       ),
       _react2.default.createElement(
@@ -651,7 +657,7 @@ webpackJsonp([3],{
       _react2.default.createElement(
         'p',
         null,
-        'The Kalashnikov is a chess opening around gaining central space on the board, and forcing white\'s knight to the edge of the board (the a3 square specifically), which is not a place you generally want your knight to be. So I played around with these ideas in my sketches.'
+        'The Kalashnikov is a chess opening around gaining central space on the board, and forcing the white players\'s knight to the edge of the board (the a3 square specifically), which is not a place you generally want your knight to be. So I played around with these ideas in my sketches.'
       ),
       _react2.default.createElement('img', { src: _sketch4.default, className: _styles2.default.fullWidthImage, alt: 'Kalashnikov opening sketches' }),
       _react2.default.createElement('img', { src: _sketch6.default, className: _styles2.default.fullWidthImage, alt: 'Kalashnikov opening sketches' }),
@@ -760,4 +766,4 @@ webpackJsonp([3],{
 /***/ }
 
 });
-//# sourceMappingURL=3.js.map?013d6c1a0a192e1f3338
+//# sourceMappingURL=3.js.map?1241461f6f5dc3e524e5

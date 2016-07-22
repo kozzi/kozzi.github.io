@@ -306,7 +306,7 @@ webpackJsonp([1],{
   
   
   // module
-  exports.push([module.id, ".Hero_hero_3zx {\n  max-width: 100%;\n  margin-top: 80px;\n  margin-bottom: 80px;\n  position: relative;\n  display: block\n}\n.Hero_hero_3zx img {\n  width: 100%;\n  box-shadow: 0 5px 20px -5px #8fa2ae\n}\n@media (max-width: 500px) {\n  .Hero_hero_3zx img {\n    width: 100vw;\n    position: relative;\n    left: -20px\n  }\n}\n", "", {"version":3,"sources":["/./pages/work/Hero.css"],"names":[],"mappings":"AAEA;EACE,gBAAgB;EAChB,iBAAiB;EACjB,oBAAoB;EACpB,mBAAmB;EACnB,cAAe;CAYhB;AAVC;EACE,YAAY;EACZ,mCAA6C;CAO9C;AALC;EAAA;IACE,aAAa;IACb,mBAAmB;IACnB,WAAY;GACb;CAAA","file":"Hero.css","sourcesContent":["@import '../../static/styles/colours.css';\n\n.hero {\n  max-width: 100%;\n  margin-top: 80px;\n  margin-bottom: 80px;\n  position: relative;\n  display: block;\n\n  & img {\n    width: 100%;\n    box-shadow: 0 5px 20px -5px var(--dark-grey);\n\n    @media (width <= 500px) {\n      width: 100vw;\n      position: relative;\n      left: -20px;\n    }\n  }\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, ".Hero_hero_3zx {\n  max-width: 100%;\n  margin-top: 80px;\n  margin-bottom: 80px;\n  position: relative;\n  display: block\n}\n\n  @media (max-width: 500px) {\n\n  .Hero_hero_3zx {\n    margin: 20px 0\n  }\n  }\n\n  .Hero_hero_3zx img {\n  width: 100%;\n  box-shadow: 0 5px 20px -5px #8fa2ae\n}\n\n  @media (max-width: 500px) {\n\n  .Hero_hero_3zx img {\n    width: 100vw;\n    position: relative;\n    top: -40px;\n    left: -20px\n  }\n}\n", "", {"version":3,"sources":["/./pages/work/Hero.css"],"names":[],"mappings":"AAGA;EACE,gBAAgB;EAChB,iBAAiB;EACjB,oBAAoB;EACpB,mBAAmB;EACnB,cAAe;CAiBhB;;EAfC;;EAAA;IACE,cAAyC;GAC1C;GAAA;;EAED;EACE,YAAY;EACZ,mCAA6C;CAQ9C;;EANC;;EAAA;IACE,aAAa;IACb,mBAAmB;IACnB,WAAW;IACX,WAAsC;GACvC;CAAA","file":"Hero.css","sourcesContent":["@import '../../static/styles/colours.css';\n@import '../../static/styles/vars.css';\n\n.hero {\n  max-width: 100%;\n  margin-top: 80px;\n  margin-bottom: 80px;\n  position: relative;\n  display: block;\n\n  @media (width <= 500px) {\n    margin: var(--page-side-padding-small) 0;\n  }\n\n  & img {\n    width: 100%;\n    box-shadow: 0 5px 20px -5px var(--dark-grey);\n\n    @media (width <= 500px) {\n      width: 100vw;\n      position: relative;\n      top: -40px;\n      left: -var(--page-side-padding-small);\n    }\n  }\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -340,7 +340,7 @@ webpackJsonp([1],{
   
   
   // module
-  exports.push([module.id, ".Title_title_3W4 {\n  width: 40%;\n  float: left;\n  margin-left: 5%;\n  margin-right: 5%\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 {\n    width: 100%;\n    float: none;\n    display: block;\n    margin-left: 0;\n    margin-right: 0\n  }\n  }\n\n  .Title_title_3W4 h1 {\n  margin: 1em 0;\n  padding: 0;\n  background: none;\n  font-size: 46px;\n  color: #527ea7;\n  text-transform: none;\n  text-align: right\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 h1 {\n    text-align: center\n  }\n}\n", "", {"version":3,"sources":["/./pages/work/Title.css"],"names":[],"mappings":"AAGA;EACE,WAAW;EACX,YAAY;EACZ,gBAAgB;EAChB,gBAAiB;CAuBlB;;EArBC;;EAAA;IACE,YAAY;IACZ,YAAY;IACZ,eAAe;IACf,eAAe;IACf,eAAgB;GACjB;GAAA;;EAED;EACE,cAAc;EACd,WAAW;EACX,iBAAiB;EACjB,gBAAqB;EACrB,eAAmB;EACnB,qBAAqB;EACrB,iBAAkB;CAKnB;;EAHC;;EAAA;IACE,kBAAmB;GACpB;CAAA","file":"Title.css","sourcesContent":["@import '../../static/styles/colours.css';\n@import '../../static/styles/vars.css';\n\n.title {\n  width: 40%;\n  float: left;\n  margin-left: 5%;\n  margin-right: 5%;\n\n  @media (width <= 768px) {\n    width: 100%;\n    float: none;\n    display: block;\n    margin-left: 0;\n    margin-right: 0;\n  }\n\n  & h1 {\n    margin: 1em 0;\n    padding: 0;\n    background: none;\n    font-size: var(--h1);\n    color: var(--blue);\n    text-transform: none;\n    text-align: right;\n\n    @media (width <= 768px) {\n      text-align: center;\n    }\n  }\n}\n"],"sourceRoot":"webpack://"}]);
+  exports.push([module.id, ".Title_title_3W4 {\n  width: 40%;\n  float: left;\n  margin-left: 5%;\n  margin-right: 5%\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 {\n    width: 100%;\n    float: none;\n    display: block;\n    margin-left: 0;\n    margin-right: 0\n  }\n  }\n\n  .Title_title_3W4 h1 {\n  margin: 1em 0;\n  padding: 0;\n  background: none;\n  font-size: 46px;\n  color: #527ea7;\n  text-transform: none;\n  text-align: right\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 h1 {\n    text-align: center\n  }\n}\n\n  @media (max-width: 768px) {\n\n  .Title_title_3W4 h1 {\n    margin-top: 0;\n    font-size: 34px\n  }\n}\n", "", {"version":3,"sources":["/./pages/work/Title.css"],"names":[],"mappings":"AAGA;EACE,WAAW;EACX,YAAY;EACZ,gBAAgB;EAChB,gBAAiB;CA4BlB;;EA1BC;;EAAA;IACE,YAAY;IACZ,YAAY;IACZ,eAAe;IACf,eAAe;IACf,eAAgB;GACjB;GAAA;;EAED;EACE,cAAc;EACd,WAAW;EACX,iBAAiB;EACjB,gBAAqB;EACrB,eAAmB;EACnB,qBAAqB;EACrB,iBAAkB;CAUnB;;EARC;;EAAA;IACE,kBAAmB;GACpB;CAAA;;EAED;;EAAA;IACE,cAAc;IACd,eAAqB;GACtB;CAAA","file":"Title.css","sourcesContent":["@import '../../static/styles/colours.css';\n@import '../../static/styles/vars.css';\n\n.title {\n  width: 40%;\n  float: left;\n  margin-left: 5%;\n  margin-right: 5%;\n\n  @media (width <= 768px) {\n    width: 100%;\n    float: none;\n    display: block;\n    margin-left: 0;\n    margin-right: 0;\n  }\n\n  & h1 {\n    margin: 1em 0;\n    padding: 0;\n    background: none;\n    font-size: var(--h1);\n    color: var(--blue);\n    text-transform: none;\n    text-align: right;\n\n    @media (width <= 768px) {\n      text-align: center;\n    }\n\n    @media (width <= 768px) {\n      margin-top: 0;\n      font-size: var(--h2);\n    }\n  }\n}\n"],"sourceRoot":"webpack://"}]);
   
   // exports
   exports.locals = {
@@ -606,7 +606,13 @@ webpackJsonp([1],{
           { href: 'http://spl.org' },
           'Seattle Public Library (SPL)'
         ),
-        '. But I also love browsing physical bookstores when deciding what I want to read.'
+        '. But I also love browsing ',
+        _react2.default.createElement(
+          'em',
+          null,
+          'physical'
+        ),
+        ' bookstores when deciding what I want to read.'
       ),
       _react2.default.createElement(
         'p',
@@ -721,7 +727,7 @@ webpackJsonp([1],{
             { href: 'https://en.wikipedia.org/wiki/Separation_of_concerns' },
             'good engineering practice'
           ),
-          '! Given that a piece of my app requires scaping of the SPL (where I expect the page markup to change often), I wanted to decouple the scraping functionality from the rest of the components so that I can easily maintain and update this independently in the future. Furthermore, should SPL decide to give me access to an API for searching its books, I can easily swap out the scrapper component.'
+          '! Given that a piece of my app requires scaping of the SPL website (where I expect the page markup to change often), I wanted to decouple the scraping functionality from the rest of the components so that I can easily maintain and update this independently in the future. Furthermore, should SPL decide to give me access to an API for searching its books, I can easily swap out the scraper component.'
         ),
         _react2.default.createElement(
           'li',
@@ -731,7 +737,7 @@ webpackJsonp([1],{
             null,
             'Easier debugging:'
           ),
-          ' When you build a giant monolithic piece of software and wait til the very end to test it, if something doesn\'t work, there are a million reasons for what went wrong. This makes debugging it that much harder. By building it up and testing it in small pieces along the way, it will make narrowing down bugs a lot easier.'
+          ' When you build a giant monolithic piece of software and wait til the very end to test it, if something doesn\'t work, there are a million reasons for what went wrong. This makes debugging it that much harder. By building it up and testing it in small pieces along the way, it made narrowing down bugs a lot easier.'
         )
       ),
       _react2.default.createElement(
@@ -766,6 +772,31 @@ webpackJsonp([1],{
       _react2.default.createElement('img', { src: _screenshot2.default, className: _styles2.default.halfWidthImage, alt: 'Screenshot' }),
       _react2.default.createElement('img', { src: _screenshot4.default, className: _styles2.default.halfWidthImage, alt: 'Screenshot' }),
       _react2.default.createElement('img', { src: _screenshot6.default, className: _styles2.default.halfWidthImage, alt: 'Screenshot' }),
+      _react2.default.createElement(
+        'h2',
+        null,
+        'Why is this not in the AppStore??'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        _react2.default.createElement(
+          'strong',
+          null,
+          'Short answer:'
+        ),
+        ' It probably won\'t be approved anyway, because of the semi sketchy scraping I\'m doing.'
+      ),
+      _react2.default.createElement(
+        'p',
+        null,
+        _react2.default.createElement(
+          'strong',
+          null,
+          'Long answer:'
+        ),
+        ' This was created because I had a problem I wanted solved. Hardcoding my library account solved the problem well enough. Creating the ability to generically do it for any account felt like more time and work, for not much additional benefit to me (who is the main "customer"). So I didn\'t continue to make it AppStore-ready, and spent my time elsewhere :)'
+      ),
       _react2.default.createElement(
         'h2',
         null,
@@ -859,4 +890,4 @@ webpackJsonp([1],{
 /***/ }
 
 });
-//# sourceMappingURL=1.js.map?1a54d46ceca36f607b7c
+//# sourceMappingURL=1.js.map?881a024ab7df06ab6dc4

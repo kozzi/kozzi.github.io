@@ -1,0 +1,75 @@
+==================================================================
+https://keybase.io/kozzi
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://charingwong.com
+  * I am kozzi (https://keybase.io/kozzi) on keybase.
+  * I have a public key with fingerprint FC7A FF7B 2BB4 5ED5 7454  56D0 9DC7 4391 D197 FD87
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01016c2362d6e1beed6b02ffd7478764534af19fff42d4f34a66bbe0d5645d602c450a",
+            "fingerprint": "fc7aff7b2bb45ed5745456d09dc74391d197fd87",
+            "host": "keybase.io",
+            "key_id": "9dc74391d197fd87",
+            "kid": "01016c2362d6e1beed6b02ffd7478764534af19fff42d4f34a66bbe0d5645d602c450a",
+            "uid": "9cd9e54402805d64ce93946596210c19",
+            "username": "kozzi"
+        },
+        "revoke": {
+            "sig_ids": [
+                "09e5e1fcf12a46704851c0621ab1e9d45152d219820030dcc25e179433fbc3450f"
+            ]
+        },
+        "service": {
+            "hostname": "charingwong.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1469202901,
+    "expire_in": 157680000,
+    "prev": "f0e7190ec7377a20261a55028239e1773aafc1958ca4d43076785a5bebd391b8",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.53
+Comment: https://keybase.io/crypto
+
+yMJyAnicrVJ/aFVVHH+bNtzGQMyGsiI8YlSuxzn3nnPPvW9NUSNYbFoxtoHZ4/x8
+u5u79+29+zY3naiIllawyZYgOGwzsKEpJLHMWmNFYLTaMJKBQ2JUIiuCggqzc5f9
+15+dfw7nfD+fz/fz/ZwzVbEsUVZ0Ylt94w+nJiuLrn3ySyHRPLDl+l7AQ9kDUntB
+u1ra1G6p8lG63ZcgBSCCyBGW7VjSUYgrJR0OLa0lxdSlDiY2Zhp5WmtsSazNyXE4
+V1ASU5MOtAQmkIFqoP0go3LZnB9ERlYLyrSm3OIcEyUJxQQTR0JPCoptD0nkUS1d
+aoitYT5mGHOc5VXSD82dOaSX7P0H/n/2Xfinj5CeIhhDy4WmjIXybA87xHMsBAXy
+YmBe5QLWoWKvYW+vD/qqQU51he0qDjXvZ4zjPEjtBNAoKaSFRhbDDoXYJUhAI8Q4
+Up7EBBFLWshzLQhtKIWwDJx62LY1F7axpcEuo23adfliSTyO6H5r0cpMxJnuMMgk
+RdhhfGVzYRSKcLcptkZRNhX7inqyMbhb8fR9mTT3A2mIhtClcnk/DEAKGaSI/FgX
+YcezoOVBVA3UnqyfU2k/RhDquNCsuI3qih8WKoo8qAS1KWWG4iBGiInNsj0zBbUZ
+0yYv4gqGJbYhdahLGOGKS/OM3AXxYJ1BCFKusckyRtJEF7CokFOgb3LipeWJorJE
+yQPF8ddNlJWu/PdDf1q5InHs9kN3pg5f7t++sOa1R/wfd5ChJ997s3/17x8M/Tn5
+5Zo7r04/XLcLlC+mWjprv078PFb80W/TlacWLnWrRx+bHbk6/symd7Y23b0wMvDU
+c1VtH+9/9vzWi4Mlj68/Wj82MbOsuebg+flvzpYONS2+deHGuxsqPixb7n6RHHh/
+ood2RpVFfxVmcd/L3x+ounfp5s7Prm6ZG17fcCR8YrR37cyDB/a8zq7NlI9tWHwl
+tUpdCYrl2cWalacbOo7WnXn6yuf7Xjx+8vLzF79a8W39fO32xgj0lxys+PUuOteW
+H0uKG2+gn3hxIROON69+e/qF8UPo3tymls0zw6N/JG/VtZ38buNgw2zVwrqW221/
+A2DPWGQ=
+=y78P
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/kozzi
+
+==================================================================
